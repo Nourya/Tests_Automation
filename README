@@ -1,20 +1,26 @@
-TEST AUTOMATION SUITE - ANGULAR ITEM DELETE
+   ╔══════════════════════════════════════════╗
+║   🚀 TEST AUTOMATION FRAMEWORK - ANGULAR  ║
+╚══════════════════════════════════════════╝
 
-OVERVIEW
---------
-Test automation for Angular application using:
-- Robot Framework
-- Gherkin syntax
-- Page Object Model (design pattern)
-- SeleniumLibrary (browser automation)
+▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼
+  ► ROBOT FRAMEWORK ◄
+  ► GHERKIN SYNTAX ◄
+  ► PAGE OBJECT MODEL ◄
+  ► SELENIUM LIBRARY ◄
+▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲
 
-SETUP
------
-1. Install dependencies:
+■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
+  🛠️ SETUP INSTRUCTIONS
+■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
+
+1. INSTALL DEPENDENCIES:
+   ------------------------------------------
    pip install robotframework selenium robotframework-browser
 
-2. Start Angular App:
+2. START ANGULAR APP:
+   ------------------------------------------
    ng serve
 
-3. Run tests:
+3. RUN TESTS:
+   ------------------------------------------
    robot Tests/Test_suite.robot
