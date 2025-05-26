@@ -1,24 +1,20 @@
-# Test Automation Suite - Angular Item DELETE
+TEST AUTOMATION SUITE - ANGULAR ITEM DELETE
 
-## 🚀 Overview
+OVERVIEW
+--------
 Test automation for Angular application using:
 - Robot Framework
 - Gherkin syntax
 - Page Object Model (design pattern)
 - SeleniumLibrary (browser automation)
 
-
-## 🛠️ Setup
+SETUP
+-----
 1. Install dependencies:
-```bash
-pip install robotframework selenium robotframework-browser
-```
-2. Start Angular App :
-```bash
-ng serve
-```
+   pip install robotframework selenium robotframework-browser
 
-3. Run tests :
-```bash
-robot test-suites/regression_suite.robot
-```
+2. Start Angular App:
+   ng serve
+
+3. Run tests:
+   robot Tests/Test_suite.robot
